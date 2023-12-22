@@ -1,0 +1,15 @@
+{
+    "[rust]": {
+      "editor.defaultFormatter": "rust-lang.rust-analyzer",
+      "editor.formatOnSave": true,
+    },
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.check.extraArgs": [
+      "--",
+      "-W",
+      "clippy::pedantic"
+    ],
+    "github.copilot.enable": {
+        "rust": false,
+    }
+}
